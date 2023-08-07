@@ -37,7 +37,7 @@ options(htmltools.dir.version = FALSE)
 mypar = list(mar = c(3.5,4.5,1,1), mgp = c(1.5, 0.3, 0), bg="transparent", tck = -.008)
 
 # Rscript -e "rmarkdown::render('index.Rmd')"
-# sudo docker run --rm -t -v `pwd`: astefanutti/decktape  index.pdf
+# sudo Rscript -e "options(pagedown.remote.maxattempts=40); pagedown::chrome_print("index.html",output="index.pdf")"
 ```
 
 class: title-slide, middle
