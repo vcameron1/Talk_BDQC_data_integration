@@ -37,6 +37,7 @@ options(htmltools.dir.version = FALSE)
 mypar = list(mar = c(3.5,4.5,1,1), mgp = c(1.5, 0.3, 0), bg="transparent", tck = -.008)
 
 # Rscript -e "rmarkdown::render('index.Rmd')"
+# sudo docker run --rm -t -v `pwd`: astefanutti/decktape  index.pdf
 ```
 
 class: title-slide, middle
@@ -98,7 +99,7 @@ Data can be accessed through a web portal for accessibility and security -->
 
 # Québec Biodiversity Observation Network
 
-Data formatting, management, and software skill sets are *barriers* to a project's data workflow
+Data formatting, management, and **software skill sets** are *barriers* to a project's data workflow
 
 .center[<img src="assets/img/coleo_workflow2.svg"  width="80%">]
 
@@ -106,13 +107,13 @@ Data formatting, management, and software skill sets are *barriers* to a project
 
 ---
 
-# Data workflow
+# Partners need an interactive interface
 
-## Partners need an interactive interface
+## GBIF's IPT
 
 .content-box[
 .pull-left[
-**GBIF's *IPT***
+<br>
 
 <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;fill:#7ab5b0;" xmlns="http://www.w3.org/2000/svg">
   <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -150,13 +151,13 @@ Regroups data management services
 
 ---
 
-# Data workflow
+# Partners need an interactive interface
 
-## Partners need an interactive interface
+## GBIF's IPT
 
 .content-box[
 .pull-left[
-**GBIF's *IPT***
+<br>
 
 <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;fill:#7ab5b0;" xmlns="http://www.w3.org/2000/svg">
   <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -205,13 +206,13 @@ Adapt to the needs of the network
 
 ---
 
-# Québec Biodiversity Observation Network
+# Partners need an interactive interface
 
-## State-of-the-art web application
+## Our web portal
 
 .content-box[
 .pull-left[
-**Web application**
+<br>
 
 <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;fill:#7ab5b0;" xmlns="http://www.w3.org/2000/svg">
   <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -246,13 +247,13 @@ Well-designed interface
 
 ---
 
-# Québec Biodiversity Observation Network
+# Partners need an interactive interface
 
-## State-of-the-art web application
+## Our web portal
 
 .content-box[
 .pull-left[
-**Web application**
+<br>
 
 <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;fill:#7ab5b0;" xmlns="http://www.w3.org/2000/svg">
   <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -356,7 +357,7 @@ Template = data + metadata + formatting guide + validation rules
 <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;fill:#7ab5b0;" xmlns="http://www.w3.org/2000/svg">
   <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
 </svg>
-Builds on user's existing skill sets and workflows
+Builds on partners' existing skill sets and workflows
 
 <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;fill:#7ab5b0;" xmlns="http://www.w3.org/2000/svg">
   <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
@@ -383,7 +384,7 @@ Fast to develop and to adapt
 
 # Spreadsheet-based template system
 
-Template = data + matadata + formating guide + validation rules
+Template = data + metadata + formatting guide + validation rules
 
 .content-box[
 .pull-left[
@@ -420,11 +421,11 @@ Proprietary software
 <svg viewBox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;fill:#d88219;" xmlns="http://www.w3.org/2000/svg">
   <path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path>
 </svg>
-Difficult to make reproductible
+Difficult to make reproducible
 ]
 ]
 
-.coleoteal[However, web-based visualization tools have proven effective in communicating and synthesizing the data for partners]
+.coleoteal[However, web-based visualization tools have proven effective in communicating.]
 
 ---
 
