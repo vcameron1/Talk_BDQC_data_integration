@@ -461,3 +461,25 @@ Evolving needs and varied level of skill of partners present large challenges
 Budget and plan for highly qualified human resources for maintenance and improvements
 ]
 
+---
+class: inverse 
+
+# .center[Reach out!]
+<html><div style='float:left'></div><hr color='#d88219' size=1px width=720px></html>
+
+.pull-left[
+<br>
+<br>
+.large[Victor Cameron] <br>
+.small[Eco-informatician, lecturer ]
+
+.coleoteal[victor.cameron@usherbrooke.ca] <br>
+.coleoteal[www.biodiversite-quebec.ca]
+
+<br>
+<br>
+.pull-left[<img src="assets/img/IE_logo.png"  width="100%">]
+.pull-right[<img src="assets/img/UdeS_logo.png"  width="100%">]
+]
+
+.pull-right[<img src="assets/img/profil.png"  width="80%">]
