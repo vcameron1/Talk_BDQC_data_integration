@@ -348,6 +348,14 @@ Aspects that could be improved upon
 
 # Spreadsheet-based template system
 
+<br>
+
+.center[<img src="assets/img/excel_meme1.png"  width="50%">]
+
+---
+
+# Spreadsheet-based template system
+
 Template = data + metadata + formatting guide + validation rules
 
 .content-box[
